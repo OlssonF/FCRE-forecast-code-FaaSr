@@ -64,7 +64,7 @@ flows:
    future_outflow_model: future/model_id=outflow-aed/reference_date={reference_date}/site_id={site_id}
    local_inflow_directory: drivers/inflow
    local_outflow_directory: drivers/inflow
-   use_flows_s3: yes
+   use_flows_s3: no
    use_ler_vars: no
 met:
    future_met_model: 'gefs-v12/stage2/reference_datetime={reference_date}/site_id={site_id}'
